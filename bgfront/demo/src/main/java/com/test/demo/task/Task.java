@@ -30,6 +30,10 @@ public class Task {
 	
 	//@Scheduled(fixedRate=21600000)
 	public void runLotterTask() {
+		
+		
+		
+		
 		log.info("任务开始执行了"+System.currentTimeMillis());
 		marketRealInfoJob.execute();
 	}
